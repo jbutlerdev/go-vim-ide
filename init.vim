@@ -7,4 +7,4 @@ set expandtab
 " enable autocomplete
 " call deoplete#custom#option('omni_patterns', { 'go': '[^. *\t]\.w*' })
 " start with NERDtree open
-NERDTree
+au VimEnter * NERDTree

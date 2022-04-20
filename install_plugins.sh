@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # install golang
-apt-get install -y curl git build-essential
 curl -LO https://go.dev/dl/go1.18.1.linux-amd64.tar.gz
 rm -rf /usr/local/go && tar -C /usr/local -xzf go1.18.1.linux-amd64.tar.gz
 if [ $? -ne 0 ]; then

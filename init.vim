@@ -18,3 +18,5 @@ let g:go_term_height=15
 let g:go_term_reuse=1
 let g:go_term_mode="split"
 set splitbelow
+set splitright
+

@@ -15,12 +15,16 @@ docker build -t go-vim-ide:latest .
 Its recommended that you create an alias to run this easily. Add the following to your shell rc file (ie .bashrc)
 
 ``` bash
-alias nvim='docker run -it --rm -v ${PWD}:${PWD}:z -w ${PWD} registry.botnet/goide'
+alias nvim='docker run -it --rm -v ${PWD}:${PWD}:z -w ${PWD} go-vim-ide:latest'
 ```
 
 # Running
 
 Launch the container, enjoy the environment.
+
+``` bash
+nvim README.md
+```
 
 * The terminal and neovim are two different tmux windows, use `ctrl-b (up|down)` to move between them
 * The file tree and editor window are two different vim panes, use `ctrl-w (left|right)` to move between them

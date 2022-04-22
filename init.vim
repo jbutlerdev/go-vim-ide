@@ -11,6 +11,7 @@ set expandtab
 
 " start with NERDtree open
 au VimEnter * NERDTree
+let NERDTreeShowHidden=1
 
 " set go term
 let g:go_term_enabled=1

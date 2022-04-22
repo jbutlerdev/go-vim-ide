@@ -18,6 +18,13 @@ Its recommended that you create an alias to run this easily. Add the following t
 alias nvim='docker run -it --rm -v ${PWD}:${PWD}:z -w ${PWD} go-vim-ide:latest'
 ```
 
+or source the `setAlias.sh` script
+
+``` bash
+source setAlias.sh
+```
+
+
 # Running
 
 Launch the container, enjoy the environment.
